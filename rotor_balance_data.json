@@ -1,0 +1,108 @@
+{
+  "sensorsplanesconditions": [
+    {
+      "numberofsensors": "2",
+      "numberofplanes": "2",
+      "numberofspeedsorconditions": "2",
+      "directionofrotation": "CCW"
+    }
+  ],
+  "sensordata": [
+    {
+      "sensorname": "1XD",
+      "Condition": "1",
+      "sensororientation": "45",
+      "relativetoTDC": "R",
+      "sensorunits": "mils pp",
+      "sensorweighting": "1",
+      "slwrllamp": "0",
+      "slwrlphase": "0",
+      "runzeroamp": "4",
+      "runzeroph": "30",
+      "runoneamp": "4.1",
+      "runoneph": "64",
+      "runtwoamp": "2.9",
+      "runtwoph": "53"
+    },
+    {
+      "sensorname": "1YD",
+      "Condition": "1",
+      "sensororientation": "45",
+      "relativetoTDC": "L",
+      "sensorunits": "mils pp",
+      "sensorweighting": "1",
+      "slwrllamp": "0",
+      "slwrlphase": "0",
+      "runzeroamp": "3.5",
+      "runzeroph": "15",
+      "runoneamp": "2.1",
+      "runoneph": "19",
+      "runtwoamp": "1.75",
+      "runtwoph": "350"
+    },
+    {
+      "sensorname": "1XD",
+      "Condition": "2",
+      "sensororientation": "45",
+      "relativetoTDC": "R",
+      "sensorunits": "mils pp",
+      "sensorweighting": "1",
+      "slwrllamp": "0",
+      "slwrlphase": "0",
+      "runzeroamp": "2.5",
+      "runzeroph": "285",
+      "runoneamp": "1.5",
+      "runoneph": "298",
+      "runtwoamp": "2.25",
+      "runtwoph": "314"
+    },
+    {
+      "sensorname": "1YD",
+      "Condition": "2",
+      "sensororientation": "45",
+      "relativetoTDC": "L",
+      "sensorunits": "mils pp",
+      "sensorweighting": "1",
+      "slwrllamp": "0",
+      "slwrlphase": "0",
+      "runzeroamp": "2.5",
+      "runzeroph": "345",
+      "runoneamp": "1.2",
+      "runoneph": "8",
+      "runtwoamp": "1.4",
+      "runtwoph": "350"
+    }
+  ],
+  "weightplanedata": [
+    {
+      "wghtplnname": "First Plane",
+      "planeconfig": "dial",
+      "planenumberofholes": "24",
+      "planeholeonephase": "0",
+      "planeholenmbrdirection": "ccw",
+      "trialweightamp": "5",
+      "trialweightph": "90",
+      "trialweightleftin": "yes"
+    },
+    {
+      "wghtplnname": "Second Plane",
+      "planeconfig": "dial",
+      "planenumberofholes": "24",
+      "planeholeonephase": "0",
+      "planeholenmbrdirection": "ccw",
+      "trialweightamp": "10",
+      "trialweightph": "150",
+      "trialweightleftin": "no"
+    }
+  ],
+  "speedsconditionsweighting": [
+    {
+      "speedorcondition": "3600",
+      "conditonweighting": "1"
+    },
+    {
+      "speedorcondition": "2300",
+      "conditonweighting": "1"
+    }
+  ]
+}
