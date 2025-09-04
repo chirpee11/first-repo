@@ -5,5 +5,5 @@ cur = con.cursor()
 
 res = cur.execute("select plantid, PlantName FROM Plants")
 
-print (res.fetchone())
+print (res.fetchall())
 
