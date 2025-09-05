@@ -1,9 +1,8 @@
 import sqlite3
 con = sqlite3.connect("mdsbalance.db")
 
-cur = con.cursor()
+rows = con.execute("select plantid, PlantName FROM Plants")
 
-res = cur.execute("select plantid, PlantName FROM Plants")
-
-print (res.fetchall())
+for row in rows:
+  print (row)
 
